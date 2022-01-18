@@ -1,0 +1,31 @@
+:root {
+    --bg-header: rgba(0, 214, 180, .95);
+    --bg-body: rgba(239, 238, 239, .75);
+    --bg-button: rgba(0, 214, 180, .95);
+    --bg-btntext: rgba(250, 250, 252, 100);
+    --bg-spanbtn: rgba(72, 138, 239, 100);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-body);
+    background-image: url(../assets/img/bg-paul-voie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100% vh;
+    font-family: Raleway;
+    }
+
+.container,
+.form {
+    background-color: var(--bg-body)
+}
+
+.form .form-control-text {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #8b8888;
+}
